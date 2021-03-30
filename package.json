@@ -1,0 +1,36 @@
+{
+  "name": "vue-acl-5",
+  "version": "5.0.0",
+  "description": "Plugin of Access Control List from Vue JS 2",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel ./source --out-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firmino2611/vue-acl-5.git"
+  },
+  "keywords": [
+    "acl",
+    "vuejs",
+    "control",
+    "user"
+  ],
+  "author": "Leonardo Vilarinho - Modified Lucas Firmino",
+  "contributors": [
+    "Yakup Arslan",
+    "Tobias Madner"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardovilarinho/vue-acl/issues"
+  },
+  "homepage": "https://github.com/leonardovilarinho/vue-acl#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {}
+}
